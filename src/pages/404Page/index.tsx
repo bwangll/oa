@@ -1,11 +1,11 @@
 import React from 'react';
 
-const notFound = () => {
-  return (
-    <div>
-      404 page
-    </div>
-  );
+const NotFound: React.FC = () => {
+    return (
+        <div>
+            404 page
+        </div>
+    );
 };
 
-export default notFound;
+export default NotFound;

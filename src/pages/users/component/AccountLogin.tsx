@@ -1,17 +1,17 @@
 import React from 'react';
-import IconMap from '@/compoents/IconMap';
-import { loginRule } from '@/utils/roles';
-import { Form, Input } from 'antd';
+import {Form, Input} from 'antd';
+import {loginRule} from "@/utils/roles";
+import IconMap from "@/compoents/IconMap";
 
 const AccountLogin = () => {
-  const FormItem = Form.Item;
+    const FormItem = Form.Item;
 
-  return (
-    <>
-      <FormItem name="accountName"
-        rules={loginRule.userRule}
-                hasFeedback>
-        <Input placeholder='请输入用户名'
+    return (
+        <>
+            <FormItem name="accountName"
+                      rules={loginRule.userRule}
+                      hasFeedback>
+                <Input placeholder='请输入用户名'
                prefix={IconMap.userIcon}
         />
       </FormItem>
@@ -19,6 +19,7 @@ const AccountLogin = () => {
         rules={loginRule.passwordRule}
                 hasFeedback>
         <Input placeholder='请输入密码'
+               type="password"
                prefix={IconMap.passwordIcon}
         />
       </FormItem>
