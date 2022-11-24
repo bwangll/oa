@@ -1,11 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const Salary = () => {
-  return (
-    <div>
-      调薪记录
-    </div>
-  );
-};
+    return <div>调薪记录</div>
+}
 
-export default Salary;
+export default Salary

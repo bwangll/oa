@@ -1,1 +1,1 @@
-export {loginRule} from './loginRule';
+export { loginRule } from './loginRule'

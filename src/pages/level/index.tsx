@@ -1,11 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const Level = () => {
-  return (
-    <div>
-      职级管理
-    </div>
-  );
-};
+    return <div>职级管理</div>
+}
 
-export default Level;
+export default Level

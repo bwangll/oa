@@ -1,11 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-const BaseLayout = ({children}: any) => {
-  return (
-      <div>
-        {children}
-      </div>
-  );
-};
+const BaseLayout = ({ children }: any) => {
+    return <div>{children}</div>
+}
 
-export default BaseLayout;
+export default BaseLayout

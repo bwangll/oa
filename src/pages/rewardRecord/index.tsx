@@ -1,11 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const RewardRecord = () => {
-  return (
-    <div>
-      奖惩记录
-    </div>
-  );
-};
+    return <div>奖惩记录</div>
+}
 
-export default RewardRecord;
+export default RewardRecord

@@ -1,11 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const Attendance = () => {
-  return (
-    <div>
-      attendance
-    </div>
-  );
-};
+    return <div>attendance</div>
+}
 
-export default Attendance;
+export default Attendance

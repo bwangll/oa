@@ -1,6 +1,6 @@
 export interface IUserStore {
     user: {
-        userInfo: string;
-        loading: boolean;
+        userInfo: string
+        loading: boolean
     }
 }

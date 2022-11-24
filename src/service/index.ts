@@ -1,3 +1,8 @@
-import {checkedCode, getSmsCode, resetPassword, userLogin} from "./interface/user";
+import {
+    checkedCode,
+    getSmsCode,
+    resetPassword,
+    userLogin
+} from './interface/user'
 
-export {userLogin, getSmsCode, checkedCode, resetPassword};
+export { userLogin, getSmsCode, checkedCode, resetPassword }

@@ -1,11 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-const LoginLayout = ({children}: any) => {
-  return (
-      <div>
-        {children}
-      </div>
-  );
-};
+const LoginLayout = ({ children }: any) => {
+    return <div>{children}</div>
+}
 
-export default LoginLayout;
+export default LoginLayout
